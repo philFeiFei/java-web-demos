@@ -9,7 +9,7 @@ System.out.println("basePath="+basePath) ;
 <html>
   <head>
     <base href="<%=basePath%>">
-    <title>中国牛</title>
+    <title>已经同步至github</title>
 	<meta http-equiv="pragma" content="no-cache">
 	<meta http-equiv="cache-control" content="no-cache">
 	<meta http-equiv="expires" content="0">    
