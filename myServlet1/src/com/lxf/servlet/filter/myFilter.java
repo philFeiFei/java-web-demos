@@ -31,6 +31,7 @@ public class myFilter implements Filter {
 	public void init(FilterConfig arg0) throws ServletException {
 		// TODO Auto-generated method stub
 		System.out.println("启动就进入我的Filter了。");
+		System.out.println("github mark。");
 	}
 
 
