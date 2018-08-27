@@ -34,5 +34,4 @@ public class myFilter implements Filter {
 		System.out.println("github mark。");
 	}
 
-
 }
