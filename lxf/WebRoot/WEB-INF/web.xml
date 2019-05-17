@@ -69,6 +69,25 @@
     <servlet-name>GetEmployeeInfo</servlet-name>
     <url-pattern>/servlet/GetEmployeeInfo</url-pattern>
   </servlet-mapping>
+  
+  <!--GetVueInfo  -->
+  <servlet>
+    <servlet-name>GetVueInfo</servlet-name>
+    <servlet-class>com.lxf.servlet.GetVueInfo</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>GetVueInfo</servlet-name>
+    <url-pattern>/servlet/GetVueInfo</url-pattern>
+  </servlet-mapping>
+  <!--UploadInVue  -->
+  <servlet>
+    <servlet-name>UploadInVue</servlet-name>
+    <servlet-class>com.lxf.servlet.UploadInVue</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UploadInVue</servlet-name>
+    <url-pattern>/servlet/UploadInVue</url-pattern>
+  </servlet-mapping>
     
   
     

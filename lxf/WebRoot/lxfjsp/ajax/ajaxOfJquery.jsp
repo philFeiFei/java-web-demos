@@ -28,7 +28,7 @@ function getDetailInfo(){
 	var name = document.getElementById("name").value;
 	//var url="/lxf/servlet/GetDetailInfo?name="+name;
 	var url="/lxf/servlet/GetDetailInfo";
-	$("#myDiv").load(url,{name:name},callBack());
+	$("#myDiv").load(url,{"name":name},callBack());
 }
 function callBack(){
 	//alert("成功加载！！");

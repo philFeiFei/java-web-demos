@@ -58,16 +58,16 @@ public class GetDetailInfo extends HttpServlet {
 	 	                "<html>\n" +
 	 	                "<body bgcolor=\"#f0f0f0\">\n" +
 	 	                "<ul>\n" +
-	 	                "  <li><b>cookie Nameï¼š</b>ï¼š"
+	 	                "  <li><b>cookie Name：</b>"
 	 	                + name + "</li>" +
-	 	                "  <li><b>cookie Valueï¼š</b>ï¼š"
+	 	                "  <li><b>cookie Value：</b>"
 	 	                + value + "</li>" +
 	 	                "</ul>\n" +
 	 	                "</body></html>");
 	        }
 	        
 	       
-	        String title = "è®¾ç½® Cookie å®žä¾‹";
+	        String title = "我是谁呢";
 	       
 	        out1.println(docType +
 	                "<html>\n" +
@@ -75,14 +75,19 @@ public class GetDetailInfo extends HttpServlet {
 	                "<body bgcolor=\"#f0f0f0\">\n" +
 	                "<h1 align=\"center\">" + title + "</h1>\n" +
 	                "<ul>\n" +
-	                "  <li><b>ç«™ç‚¹å��ï¼š</b>ï¼š"
+	                "  <li><b>呵呵哒"
 	                + request.getParameter("name") + "\n</li>" +
-	                "  <li><b>ç«™ç‚¹ URLï¼š</b>ï¼š"
+	                "  <li><b>哈哈哈"
 	                + request.getParameter("url") + "\n</li>" +
 	                "</ul>\n" +
 	                "</body></html>");
 	  }
 	  
+	  public void doPost(HttpServletRequest request, HttpServletResponse response)
+			    throws ServletException, IOException
+			  {
+			    doGet(request, response);
+			  }
 	  public void destroy()
 	  {
 	      // ä»€ä¹ˆä¹Ÿä¸�å�š
